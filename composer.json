@@ -1,0 +1,14 @@
+{
+    "name": "conci/rpa-system",
+    "description": "Sistema de geração de RPA com cálculo de retenções",
+    "type": "project",
+    "require": {
+        "php": ">=7.4",
+        "dompdf/dompdf": "^3.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    }
+}
